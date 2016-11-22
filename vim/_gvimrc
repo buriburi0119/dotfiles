@@ -1,0 +1,10 @@
+"Color Scheme
+colorscheme torte
+syntax on
+
+"No Backup
+set nobackup
+
+"No UndoFile
+set noundofile
+
