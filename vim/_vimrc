@@ -28,6 +28,7 @@ NeoBundle 'https://github.com/Shougo/neocomplete.git'
 NeoBundle 'https://github.com/Shougo/unite.vim.git'
 NeoBundle 'https://github.com/Shougo/vimshell.git'
 NeoBundle 'https://github.com/tomasr/molokai.git'
+NeoBundle 'itchyny/lightline.vim'
 
  call neobundle#end()
 
@@ -40,7 +41,8 @@ NeoBundle 'https://github.com/tomasr/molokai.git'
 
 
 
-
+"Status line (for lightline)
+set statusline=2
 
 
  "=========================
