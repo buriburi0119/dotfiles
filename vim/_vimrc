@@ -29,6 +29,7 @@ NeoBundle 'https://github.com/Shougo/unite.vim.git'
 NeoBundle 'https://github.com/Shougo/vimshell.git'
 NeoBundle 'https://github.com/tomasr/molokai.git'
 NeoBundle 'itchyny/lightline.vim'
+NeoBundle 'Shougo/neomru.vim'
 
  call neobundle#end()
 
