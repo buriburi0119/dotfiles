@@ -5,6 +5,8 @@ nnoremap <F3>  :Unite file_mru<CR>
 nnoremap <F4>  :Unite buffer<CR>
 nnoremap <F5>  :VimShell<CR>
 
+" Encoding
+set encoding=utf-8
 
 :source $VIMRUNTIME/mswin.vim
  " Note: Skip initialization for vim-tiny or vim-small.
@@ -22,15 +24,15 @@ nnoremap <F5>  :VimShell<CR>
  " Required:
  call neobundle#begin(expand('~/.vim/bundle/'))
 
- " NeoBundle İ’è
+ " NeoBundle è¨­å®š
  " Required:
  NeoBundleFetch 'Shougo/neobundle.vim'
 
  " My Bundles here:
  " Refer to |:NeoBundle-examples|.
- " Note: neobundle ‚Ìİ’è‚ğ.gvimrc‚É‘‚©‚È‚¢‚±‚ÆI
+ " Note: neobundle ã®è¨­å®šã‚’.gvimrcã«æ›¸ã‹ãªã„ã“ã¨ï¼
 
- " ‚±‚±‚É’Ç‰Á‚µ‚½‚¢ƒvƒ‰ƒOƒCƒ“‚ğ’Ç‰Á‚µ‚Ü‚·B 
+ " ã“ã“ã«è¿½åŠ ã—ãŸã„ãƒ—ãƒ©ã‚°ã‚¤ãƒ³ã‚’è¿½åŠ ã—ã¾ã™ã€‚ 
 NeoBundle 'https://github.com/scrooloose/nerdtree.git'
 NeoBundle 'https://github.com/Shougo/neocomplete.git'
 NeoBundle 'https://github.com/Shougo/unite.vim.git'
